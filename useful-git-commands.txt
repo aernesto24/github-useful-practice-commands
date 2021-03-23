@@ -9,4 +9,4 @@ git log filename   : allows to see commit history for a file
 
 git show <name-of-file>  :   To see the changes in a file
 
-git diff <version1> <version2>  :  allows to see the differences between two versions 
+git diff <version1_oldOne> <version2_newOne>  :  allows to see the differences between two versions 
