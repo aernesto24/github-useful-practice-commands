@@ -5,3 +5,5 @@ git config --list --show-origin
 git config --global user.name "insert username here"
 git config --global user.email "enter your github user email"
 git log filename
+
+git show <name-of-file>
