@@ -4,6 +4,9 @@ git config --list --show-origin
 
 git config --global user.name "insert username here"
 git config --global user.email "enter your github user email"
-git log filename
+
+git log filename   : allows to see commit history for a file 
 
 git show <name-of-file>  :   To see the changes in a file
+
+git diff <version1> <version2>  :  allows to see the differences between two versions 
