@@ -6,4 +6,4 @@ git config --global user.name "insert username here"
 git config --global user.email "enter your github user email"
 git log filename
 
-git show <name-of-file>
+git show <name-of-file>  :   To see the changes in a file
