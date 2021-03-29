@@ -16,4 +16,7 @@ git reset returns to a pint in time, 2 types --hard (take care of this) / --soft
 git log --stat : you may be able to see specific changes on a file on each commit
 
 to see how was a previous version ofa file 
-git chekout <commit> <name_of_file>
+git chekout <commit> <filename>
+with 
+git master <filename> 
+return to the version on master
