@@ -14,3 +14,6 @@ git diff <version1_oldOne> <version2_newOne>  :  allows to see the differences b
 git reset returns to a pint in time, 2 types --hard (take care of this) / --soft (keeps what is on staging)
 
 git log --stat : you may be able to see specific changes on a file on each commit
+
+to see how was a previous version ofa file 
+git chekout <commit> <name_of_file>
