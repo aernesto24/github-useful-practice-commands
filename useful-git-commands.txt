@@ -12,3 +12,5 @@ git show <name-of-file>  :   To see the changes in a file
 git diff <version1_oldOne> <version2_newOne>  :  allows to see the differences between two versions 
 
 git reset returns to a pint in time, 2 types --hard (take care of this) / --soft (keeps what is on staging)
+
+git log --stat : you may be able to see specific changes on a file on each commit
