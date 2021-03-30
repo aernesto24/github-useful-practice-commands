@@ -23,3 +23,5 @@ return to the version on master
 
 git clone url  - clone a repository to make changes locally
 
+git commit -am   : execute the add also, but only works with files that i previously add
+
