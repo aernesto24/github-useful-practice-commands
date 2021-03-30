@@ -20,3 +20,6 @@ git chekout <commit> <filename>
 with 
 git master <filename> 
 return to the version on master
+
+git clone url  - clone a repository to make changes locally
+
