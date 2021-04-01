@@ -4,3 +4,10 @@ body
     text-align: "center";
     font-family: "Arial";
 }
+
+#header {
+    background: blueviolet;
+    color: white;
+    text-align: "left !important";
+    font-family: "Helvetica Neue";
+}
