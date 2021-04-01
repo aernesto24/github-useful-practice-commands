@@ -27,3 +27,5 @@ git commit -am   : execute the add also, but only works with files that i previo
 
 git merge : need to be run on the branch you want to bring your changes to, seldom master telling from which branch
 you will want to bring the changes
+
+git branch : allow to see the existing branches on your repo 
