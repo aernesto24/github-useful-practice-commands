@@ -29,3 +29,5 @@ git merge : need to be run on the branch you want to bring your changes to, seld
 you will want to bring the changes
 
 git branch : allow to see the existing branches on your repo 
+
+git merge : to merge, remember merge is basically a commit so you need to add a message as well
