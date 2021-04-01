@@ -25,9 +25,23 @@ git clone url  - clone a repository to make changes locally
 
 git commit -am   : execute the add also, but only works with files that i previously add
 
+<<<<<<< HEAD
 git merge : need to be run on the branch you want to bring your changes to, seldom master telling from which branch
 you will want to bring the changes
 
 git branch : allow to see the existing branches on your repo 
 
 git merge : to merge, remember merge is basically a commit so you need to add a message as well
+=======
+
+
+TO ADD A NEW BRANCH
+Note: Remember that it is created from the place i am.
+git show
+git branch <name>
+git status
+git show : observe you point to master and new branch
+
+moving to the new branch
+git checkout <name>
+>>>>>>> development
