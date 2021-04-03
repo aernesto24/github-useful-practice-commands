@@ -42,3 +42,19 @@ git show : observe you point to master and new branch
 
 moving to the new branch
 git checkout <name>
+
+to send this to github you need to add the public repo as origin
+$git remote origin <Repo's URL>
+you must be inside the directory of your project 
+
+$git remote -v 
+shows push (send) and fetch(bring) urls 
+
+to send code to github 
+$git push origin master
+or
+$git push --set-upstream <name selected> master 
+
+to bring changes to master 
+$git pull origin master
+
