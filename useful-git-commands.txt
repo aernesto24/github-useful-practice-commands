@@ -82,7 +82,12 @@ paste:
 Host *
   AddKeysToAgent yes
   UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+
   
 add your key
 ssh-add -K ~/.ssh/id_rsa
+
+to change the origin from https to ssh 
+git remote set-url origin <url obtained from github>
 
