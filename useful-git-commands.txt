@@ -61,5 +61,28 @@ $git pull origin master
 but if you get an error with histories between local and public
 $git pull origin master --allow-unrelated-histories 
 
+To see configs as username or email 
+$git config -l 
+to change the email
+$git config --global user.email "new_email"
 
+Generate a new sshkey
+$ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+test process a add it(Mac)
+eval "$(ssh-agent -s)"
+
+macOS Sierra or older 
+do:
+cd ~/.ssh
+create a config file
+    -Vim vim config
+    -VSCode code config
+paste:
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  
+add your key
+ssh-add -K ~/.ssh/id_rsa
 
