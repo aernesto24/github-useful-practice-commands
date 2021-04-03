@@ -58,3 +58,8 @@ $git push --set-upstream <name selected> master
 to bring changes to master 
 $git pull origin master
 
+but if you get an error with histories between local and public
+$git pull origin master --allow-unrelated-histories 
+
+
+
