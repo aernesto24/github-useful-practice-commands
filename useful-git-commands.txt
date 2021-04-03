@@ -44,7 +44,7 @@ moving to the new branch
 git checkout <name>
 
 to send this to github you need to add the public repo as origin
-$git remote origin <Repo's URL>
+$git remote add origin <Repo's URL>
 you must be inside the directory of your project 
 
 $git remote -v 
