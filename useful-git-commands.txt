@@ -91,3 +91,5 @@ ssh-add -K ~/.ssh/id_rsa
 to change the origin from https to ssh 
 git remote set-url origin <url obtained from github>
 
+if you want to see all the commits and a graphic line for detailings 
+$git log --all --graph --decorate --oneline  ✔  327  00:41:34
