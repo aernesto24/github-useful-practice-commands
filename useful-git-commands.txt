@@ -106,4 +106,9 @@ gi show-ref --tags
 this last one shows a line with the hash associated to a tag in one line as for example "dcf0e5b9edc2425ffdc0a88cb78a911b5488085f refs/tags/v0.1"
 The tag showed on the command is diff asi this is like a commit 
 new you need to push the tag to internet (github)
+$git push origin master --tags
 
+this will push only the tags 
+
+To delete a tag use:
+git tag -d <name_of_The_Tag_To_delete>
