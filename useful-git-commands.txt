@@ -115,3 +115,9 @@ git tag -d <name_of_The_Tag_To_delete>
 
 but it is almost certain that this will not delete the tag so you will need to use the following :
 "git push origin master :refs/tags/<name_of_the_Tag_to_delete>
+
+To see the branches and they histories 
+$git show-branch
+$git show-branch --all
+
+$gitk  opens in a software the history in a visual way
