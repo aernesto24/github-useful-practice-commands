@@ -125,3 +125,5 @@ $gitk  opens in a software the history in a visual way
 Remember to create a new branch, from master 
 $git branch <name of branch> 
 it will show no change but the branch is created
+
+you need to make a push in order for these branches to be seen in github 
