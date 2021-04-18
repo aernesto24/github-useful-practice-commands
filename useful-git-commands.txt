@@ -127,3 +127,9 @@ $git branch <name of branch>
 it will show no change but the branch is created
 
 you need to make a push in order for these branches to be seen in github 
+
+If you have 2 devs working on 2 branches they need to push their code on their branch 
+then you go to master
+pull those changes
+$git merge <name_of_the_branch_you_want_to_bring_your_changes_from>
+git push origin master
