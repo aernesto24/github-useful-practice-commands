@@ -135,3 +135,10 @@ $git merge <name_of_the_branch_you_want_to_bring_your_changes_from>
 git push origin master
 
 To merge a branch to master we need a Pull Request
+
+
+to keep updated your forked repo two options:
+using the github console, comparing changes and make a pull request 
+or by cli
+github remote -v
+git remote add upstream <remote repository>
