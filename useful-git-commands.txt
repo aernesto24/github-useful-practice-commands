@@ -133,3 +133,5 @@ then you go to master
 pull those changes
 $git merge <name_of_the_branch_you_want_to_bring_your_changes_from>
 git push origin master
+
+To merge a branch to master we need a Pull Request
